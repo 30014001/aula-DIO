@@ -1,0 +1,85 @@
+.html, .body {
+    margin: 0;
+}
+.body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(5, 108, 108);
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 90%;
+}
+
+
+.menu {
+    width: 15%;
+    background-color: rgb(5, 108, 108);
+    padding: 10px 20px 0px;
+}
+
+.header {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(99, 56, 240);
+    min-height: 150px;
+    background-color: rgb(5, 108, 108);
+}
+
+table tr:nth-child(even){
+    background-color: aquamarine;
+}
+
+table tr:hover td{
+    background-color: pink;
+}
+
+th{
+    background: black;
+    color: white;
+}
+
+h1, h2, h3, a{
+    color: red;
+}
+
+p{
+    color: black;
+}
+
+table{
+    border: 2px solid hotpink;
+    width: 700px;
+    height: 200px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+.elemento{
+    width: 150px;
+    height: 3000px;
+    border: 1px solid blue;
+
+}
+
+.container{
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
